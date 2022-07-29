@@ -17,3 +17,8 @@ for (let j = 2; noparar; j++) {/*Creamos un bucle que incluya una variable (J) q
     }/*Cerramos corchetes*/
 }/*Cerramos corchetes*/
 }/*Cerramos corchetes*/
+
+/**
+ * Retroalimentación: 10/10
+ * Correcto, ese es el funcionamiento!
+*/
