@@ -10,7 +10,7 @@ usos
 * electrodomesticos
 * hospitales
 * Bancos
-* universidades 
+* universidades
 
 ## Pregunta 2:
 Describa 3 razones para usar JavaScript y no otro lenguaje de programación
@@ -29,7 +29,7 @@ es la parte interna de codigo ya que no es visible para el usuario
 ¿Qué es el frontend?
 
 respuesta:
-es el codigo que realiza la parte visible del usuario 
+es el codigo que realiza la parte visible del usuario
 
 ## Pregunta 5:
 Si usted tuviera que aprender bases de datos desde 0, ¿qué considera que son los temas más importantes para aprender?, nombre 5
@@ -38,3 +38,9 @@ Si usted tuviera que aprender bases de datos desde 0, ¿qué considera que son l
 * subconsultas
 * Realizar una base de datos completa y funcional
 * mineria de datos
+
+
+/**
+ * Retroalimentación:
+ * Muy bien! Excelente trabajo 10/10
+ */

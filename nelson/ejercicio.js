@@ -1,5 +1,5 @@
-let noparar = true                      // se declara y se inicializa variable 
-let contador = 0                        // se declara y se inicializa variable 
+let noparar = true                      // se declara y se inicializa variable
+let contador = 0                        // se declara y se inicializa variable
 for (let j = 2; noparar; j++) {         // bucle for que incrementa cada vez que noparar en true
     let i = 2                           // se declara y se inicializa variable para bucle for anidado
     let primos = true                   // se declara y se inicializa variable en true para comprar cada numero que ingresa al bucle
@@ -15,3 +15,9 @@ for (let j = 2; noparar; j++) {         // bucle for que incrementa cada vez que
         noparar = false                 // se cumplira que no parar es false cuando contador sea igual a 100
     }                                   // se cierra condicional if para contador
 }                                       // se cierra bucle for principal
+
+
+/**
+ * Retroalimentación:
+ * Muy bien! Excelente trabajo 10/10
+ */
