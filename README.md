@@ -13,3 +13,4 @@ No
 
 ## Puntos ganados
 ### Clase 1: Programación en JavaScript: condicionales y bucles
+1. Nelson +1
