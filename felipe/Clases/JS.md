@@ -2,6 +2,7 @@
 ## correr el codigo 
 node felipe/ejercicio.js
 
+# join
 
 # condicionales
 

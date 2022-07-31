@@ -38,7 +38,25 @@ let jugador3 = {
 }
 
 
-/* if (jugador1.age < jugador2.age) {
+if(jugador3.goals < jugador1.goals){
+    console.log(jugador3.nickName + ' tiene una cantidad de goles de = '+ jugador3.goals +' mientras que los de ' 
+    +jugador1.nickName + ' son de' + ' : ' + jugador1.goals)
+}else{
+    console.log(jugador1.nickName + ' tiene una cantidad de goles de : '+ jugador1.goals + ' mientras que los de '
+    +jugador3.nickName +' son de'+ ':' + jugador1.goals) 
+}
+
+
+
+
+
+
+
+
+
+
+/*
+ if (jugador1.age < jugador2.age) {
     console.log(jugador1.name + ' es mas Joven')
 } else {
     console.log(jugador2.name + ' es mas Joven')
@@ -49,11 +67,11 @@ if (jugador1.level > jugador2.level) {
     console.log(jugador1.name + ' tiene mas nivel ')
 } else {
     console.log(jugador2.name + ' tiene mas nivel '  )
-} */
+} 
 
 
 
-/*if (jugador1.goldenBoats > jugador2.goldenBoats && jugador1.trophy > jugador2.trophy) {
+if (jugador1.goldenBoats > jugador2.goldenBoats && jugador1.trophy > jugador2.trophy) {
     
         console.log(jugador1.nickName + ' tiene mas botas de oro ' + jugador1.goldenBoats + ' y' + 
         ' tiene mas balones de oro ' + jugador1.trophy)
@@ -63,9 +81,9 @@ if (jugador1.level > jugador2.level) {
         ' tiene mas balones de oro ' + jugador2.trophy)
 }else {
     console.log("Ningun de los dos cumple las dos condiciones")
-} */
+} 
 
-/*let est1 = jugador1.goals / jugador1.numberOftournaments
+let est1 = jugador1.goals / jugador1.numberOftournaments
 let est2 = jugador2.goals / jugador2.numberOftournaments
 let est3 = jugador3.goals / jugador3.numberOftournaments
     
@@ -78,8 +96,8 @@ if (est1 > est2 && est1 > est3) {
 
 } else if (est3 < est1 && est3 < est2) {
     console.log(jugador1.name + 'conocido como' + jugador3.nickName + ' tiene la mejor estadistica de goles: ' + est3)
-} */
-
+} 
+*/
 
 
 
@@ -101,5 +119,8 @@ for(let j = 2; noParar; j++){
     }
     
 }
+
+
+
 
 
