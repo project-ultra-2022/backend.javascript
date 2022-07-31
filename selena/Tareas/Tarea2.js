@@ -21,8 +21,12 @@ let num1 = 1
 let num2 = 3
 for (let j = 0; j <= 10; j++) {
     let result = num1 * num2
-    console.log(num1 +" * "+ num2 +" = " + result)
-    num1= num1  + 1
-    num2= num2 + 1
+    console.log(num1 + " * " + num2 + " = " + result)
+    num1 = num1 + 1
+    num2 = num2 + 1
 }
 
+/**
+ * Retroalimentación 10/10
+ * Excelente trabajo
+ */

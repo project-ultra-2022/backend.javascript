@@ -7,9 +7,14 @@ console.log(num1)
 console.log(num2)
 var i = 0
 var j = 98
-for(i; i<j; i++){
+for (i; i < j; i++) {
     num3 = num1 + num2
     num1 = num2
     num2 = num3
     console.log(num3)
 }
+
+/**
+ * Retroalimentación 10/10
+ * Excelente trabajo
+ */
