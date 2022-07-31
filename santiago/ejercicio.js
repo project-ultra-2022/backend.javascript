@@ -124,9 +124,8 @@ if(esprimo){
 }else{
     console.log('no es primo')
 }
-*/
 
-//imprimir por pantalla los primero 100 numero primos empezando desde el 2 son
+
 
 let noparar = true
 let contador = 0
@@ -146,4 +145,4 @@ for (let j = 2; noparar; j++) {
     }
 }
 
-
+*/
