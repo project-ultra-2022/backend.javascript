@@ -36,3 +36,71 @@ noparar = (j==3) ? false=true;
 (j==3) ? no parar= false: 
     noparar=true 
 El join en este caso lo usamos para pasar el array a texto 
+# function 
+function findPrimos(parametros){
+    let f = 1
+    let h= 2
+    let r= f+h
+    return r
+    }
+    let resultado = findPrimos ()//  se usa para mostrar el resultado 
+    findPrimos// llamamos a la funcion sin necesidad de que se muestre
+
+funcion para sumar// declarar ponemos la logica dentro de la funcion
+function sum (a,b){
+return a+b
+
+}
+let result = sum (5,8);
+internamente a= 5 y b=8 llamar o invoca la función
+## funciones en linea
+let numbers = [2,5,4]
+numbers. forEach(
+        function (element){
+            console.log(element)
+        }
+)
+# forEach
+El método forEach() ejecuta la función indicada una vez por cada elemento del array
+
+let ejercicio1 = ['a', 'b', 'c'];
+
+ejercicio1.forEach(element => console.log(element));
+# some 
+para som return true es terminar el bucle y salir de la función. Rompe el bucle
+let numbers = [2, 5, 6, 3, 1]
+numbers.some(
+    function (element) {
+        log(element)
+        if (element == 6)
+            return true
+    }
+)
+# filter
+El método filter() crea un nuevo array con todos los elementos que cumplan la condición implementada por la función dada. muestra todas las coincidencias 
+let numbers = [2, 5, 6, 3, 1]
+let newNumbers= numbers.filter(
+    function (num){
+        return num %2==0
+    }
+)
+console.log (newNumbers)
+# no encontro nada 
+undefined, null y isnan
+# MAP
+crea todo con la condicion que le estamos poniendo 
+let numbers = [2, 5, 6, 3, 1]
+let newNumbers= numbers.map(
+    function (num){
+        return num * num 
+    }
+)
+console.log (newNumbers)
+# Find
+filtra los elementos que cumplan la condicion implementada pero a diferencua de filter solo me muestra la primera coincidencia
+# join 
+es la manera en la que convertimos un array en un texto y le ponemos un separador el cual se pued especificar. si no tiene nada adentro por defecto pone una (,) y si ponemos 'text' es lo que imprime
+let numbers = [2, 5, 6, 3, 1]
+console.log (',num: ' + numbers.join(', num:'))
+# buscar en internet
+Usamos palabras clave. Sin necesidad de usar conectores ni palabras de pregunta
