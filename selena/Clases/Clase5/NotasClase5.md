@@ -67,7 +67,7 @@ let ejercicio1 = ['a', 'b', 'c'];
 
 ejercicio1.forEach(element => console.log(element));
 # some 
-para som return true es terminar el bucle y salir de la función. Rompe el bucle
+para some return true es terminar el bucle y salir de la función. Rompe el bucle
 let numbers = [2, 5, 6, 3, 1]
 numbers.some(
     function (element) {
