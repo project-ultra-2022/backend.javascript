@@ -3,7 +3,7 @@
 Si alguien desea hacerlo, debe saber desde ahora que enfrentara la frustración, pues es muy complejo y requiere de varias horas para su resolución. No es obligatorio realizarlo.
 
 ## Algunas de las funciones nativas de JavaScript para resolver este problema son:
-1. forEach (Vista en clase)x
+1. forEach (Vista en clase)
 2. split
 3. push (Vista en clase)
 4. filter (Vista en clase)
@@ -30,7 +30,7 @@ Output: affhkkse
 
 ## CODE
 
-```sh
+```js
 function MinWindowSubstring(strArr) {
   let response = '';
   // White code here
