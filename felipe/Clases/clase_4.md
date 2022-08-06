@@ -122,7 +122,7 @@ El método filter() crea un nuevo array con todos los elementos que cumplan la c
 let numbers = [2, 5, 6, 3, 1]     // Aqui declaramos una variable y creamos una arrays 
 let newNumbers = numbers.filter( //aqui ponemos numbers.filter que quiere decir que numbers los vamos a filtrar
     function (num) {
-        return num % 2 == 0
+        return true  num % 2 == 0
     }
 )
 console.log(newNumbers)
@@ -178,3 +178,12 @@ num: 2, num: 5, num: 6, num: 3, num: 1
 ponemos el problemas que queremos buscar y al final el motor o lenguaje que estas usas 
 
 cuando nos salga un error copia el error y pegalo en google
+
+# index 
+artists.forEach((a, index) => { 
+console.log(a, songs,[index])
+})
+terminal:}
+
+
+Codigo sacado de Tarea_lunes.js
