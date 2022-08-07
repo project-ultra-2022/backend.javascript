@@ -38,6 +38,6 @@ let cats = [
     },
 ]
 
-let gatosHallados = cats.find (Michis => Michis.age < 5 && Michis.color == 'Yellow')
+let gatosHallados = cats.filter (Michis => Michis.age < 5 && Michis.color == 'Yellow')
 
 console.log(gatosHallados);

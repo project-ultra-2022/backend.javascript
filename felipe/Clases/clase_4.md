@@ -187,3 +187,13 @@ terminal:}
 
 
 Codigo sacado de Tarea_lunes.js
+
+
+# Foreach
+
+[1,2,5] forEach (
+    (elem,i) =>{
+    console.log (elem) // Terminal = 1,2,5 *si ponemos elem nos va a imprimir los elementos de la array 
+    console.log (i) // Terminal = 0,1,2 *si ponemos i nos va a mostrar la posicion de los elementos de la array 
+
+});
