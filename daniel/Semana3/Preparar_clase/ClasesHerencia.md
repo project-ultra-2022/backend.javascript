@@ -33,6 +33,10 @@ class Rectangulo {
   get area() {
      return this.calcArea();
    }
+
+  set area(){
+    this.area = this.alto * this.ancho
+  }
   // Método
   calcArea () {
     return this.alto * this.ancho;
