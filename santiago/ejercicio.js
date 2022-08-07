@@ -176,4 +176,199 @@ numbers.some(
     }
 )
 
+
+
+let s = 'Hola Mundo'
+console.log(s.split(' '))
+
+
+
+let students = [
+ {id: 1, name: 'santi'},
+ {id: 2, name: 'pipe'},
+ {id: 3, name: 'selena'},
+]
+
+let newStudents = 
+students.map(student =>{
+    return  'El id del estudiante es: ' + student.id + ' - ' + 'El nombre del estudiante es: ' + student.name
+})
+console.log(newStudents)
+
+
+let texto = 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum qui doloribus autem veritatis expedita iusto,quod excepturi nisi quasi deserunt quia quam nulla suscipit nihil omnis, nostrum sed? Non, magni.'
+console.log(texto.lastIndexOf('s'))
+
+
+
+let mejoresEstudiantes = [
+    'santi', 'Nelson', 'Selena',
+    'pipe', 'Esteban'
+]
+console.log(mejoresEstudiantes.includes('santi'))
+
+
+
+let texto1 = 'La mañana das no digas meriyein tu nis hijos tienes'.slice(14,16)
+let texto2 = 'La mañana das no digas meriyein tu nis hijos tienes'.slice(17,23)
+let texto3 = 'La mañana das no digas meriyein tu nis hijos tienes'.slice(3,5)
+let texto4 = 'La mañana das no digas meriyein tu nis hijos tienes'.slice(3,5)
+let texto5 = 'La mañana das no digas meriyein tu nis hijos tienes'.slice(10,13)
+let texto6 = 'La mañana das no digas meriyein tu nis hijos tienes'.slice(23,32)
+let texto7 = 'La mañana das no digas meriyein tu nis hijos tienes'.slice(32,35)
+let texto8 = 'La mañana das no digas meriyein tu nis hijos tienes'.slice(35,39)
+let texto9 = 'La mañana das no digas meriyein tu nis hijos tienes'.slice(39,44)
+let texto10 = 'La mañana das no digas meriyein tu nis hijos tienes'.slice(45,52)
+console.log(texto1)
+console.log(texto2) 
+console.log(texto3)
+console.log(texto4)
+console.log(texto5)
+console.log(texto6)
+console.log(texto7)
+console.log(texto8)
+console.log(texto9)
+console.log(texto10)
+
+
+
+var frutas = [4,8,12,0,3,-5]
+console.log(
+    frutas.sort(function(a,b){
+      return a-b
+    })
+)
+
+
+
+class Carro {
+    color
+    model
+    constructor(color,model){
+        this.color = color
+        this.model = model
+    }
+}
+let carrito = new Carro('red', '2015');
+console.log(carrito.color)
+
+
+
+
+class person {
+    constructor(manos,pies,cabeza){
+        this.manos = manos
+        this.pies = pies
+        this.cabeza = cabeza
+    }
+}
+let personita = new person('fingers','sole foot','hair')
+console.log(personita.manos)
+
+
+
+class Rectangulo {
+    constructor(alto,ancho){
+        this.alto = alto
+        this.ancho = ancho
+    }
+      area(){
+        return this.alto * this.ancho
+    }
+}
+
+const cuadrado = new Rectangulo(10,10)
+console.log(cuadrado.area())
+
+
+
+class Triangulo {
+    constructor(alto,base){
+        this.alto = alto
+        this.base = base
+    }
+      area(){
+        return (this.alto * this.base)/2
+    }
+}
+
+const cuadrado = new Triangulo(10,10)
+console.log(cuadrado.area())
+
+
+
+class Circulo {
+    constructor(radio){
+        this.radio =radio
+    }
+    area(){
+            return Math.round(Math.PI * this.radio * this.radio)
+        }
+    }
+const circulo = new Circulo(10)
+console.log(circulo.area())
+
+
+
+class Animal {
+    constructor(name){
+        this.name = name
+    }
+    sonido(){
+        return this.name + 'hace ruido'
+    }
+}
+const animal = new Animal('Leon')
+console.log(animal.name + ' hace ruido');
+
+
+class Perro extends Animal {
+sonido(){
+    return this.name + ' ladra'
+   }
+}
+
+
+
+class Animal {
+    constructor(nombre) {
+        this.nombre = nombre
+    }
+    sonido() {
+        return this.nombre + ' hace un ruido'
+    }
+}
+
+class Perro extends Animal {
+    sonido() {
+        return this.nombre + ' ladra'
+    }
+}
+
+console.log(new Perro('Doggy').sonido())
+
+class Gato extends Animal {
+     sonido() {
+        return this.nombre + ' maulla'
+     }
+}
+
+console.log(new Gato('Motas').sonido())
+
+class Vaca extends Animal {
+    sonido() {
+        return this.nombre + ' hace leche'
+    }
+}
+
+console.log(new Vaca('Paquita').sonido())
+
+class Perico extends Animal {
+    sonido(){
+        return this.nombre + ' sniffea'
+    }
+}
+
+console.log(new Perico('Chimuelo').sonido())
+
 */

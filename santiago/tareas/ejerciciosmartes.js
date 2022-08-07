@@ -38,6 +38,7 @@ let cats = [
     },
 ]
 
+/*
 let newCats = 
 cats.some(
     function(cat){
@@ -46,3 +47,11 @@ cats.some(
         return true
     }
 )
+
+*/
+
+let newCats =
+cats.map (cat =>{
+    console.log(newCats)
+    return cat.age >5 
+})

@@ -184,4 +184,67 @@ Es return o lo que queremos que nos devuelva:
 
    # 2 Primeros principios SOLID
 
+   Sirven para que el codigo este mas ordenado y se vea mejor
+
+   Primer principio solid: Cada cosa tiene una funcion unica.
+
+   Segundo principio solid: Los codigos deben estar abiertos a la expansion
+   y cerrados a la modificacion.
+
+   # Split
+
+   El split 
+
+   Ejemplo:
+
+   let s = 'Hola Mundo'
+   console.log(s.split(' '))
+
+   # lastIndexOf
+
+   El lastIndexOf sirve para buscar la ultima posicion de la ultima coincidencia que quiera buscar
+
+   let texto = 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum qui doloribus autem veritatis expedita iusto,quod excepturi nisi quasi deserunt quia quam nulla suscipit nihil omnis, nostrum sed? Non, magni.'
+   console.log(texto.lastIndexOf('s'))
+
+   # indexOf
+    
+    El indexOf sirve para buscar la primera coincidencia que quiere buscar
+
+   Ejemplo:
+
+   let texto = 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum qui doloribus autem veritatis expedita iusto,quod excepturi nisi quasi deserunt quia quam nulla suscipit nihil omnis, nostrum sed? Non, magni.'
+   console.log(texto.indexOf('s'))
+
+   # includes
+
+   El includes sirve para saber si la palabra o objeto esta dentro del arrays
+
+   Ejemplo:
+   
+    let mejoresEstudiantes = [
+    'santi', 'Nelson', 'Selena',
+    'pipe', 'Esteban'
+    ]
+    console.log(mejoresEstudiantes.includes('santi'))
+
+   # slice
+
+   # class
+
+   Una manera de definir una clase
+
+   Ejemplo:
+
+   class Carro {
+    color
+    model
+    constructor(color,model){
+        this.color = color
+        this.model = model
+    }
+}
+let carrito = new Carro('red', '2015');
+console.log(carrito.color)
+
    # set timeout
