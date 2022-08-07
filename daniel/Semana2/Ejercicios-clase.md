@@ -11,6 +11,11 @@
 # Dado un número aleatorio entre 100 y 1000, cuente el número total de dígitos
 Por ejemplo, el número es 75869, por lo que la salida debería ser 5
 
+var aleatorio = Math.floor(Math.random()*1000);
+console.log(aleatorio)
+var long = aleatorio.toString().length
+console.log(long)
+
 # Imprima el siguiente patrón con el ciclo for:
 *
 * *
