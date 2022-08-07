@@ -1,4 +1,10 @@
-// Dato el siguiente array
+// Ejercicio Martes
+
+// Dado el siguiente array
+
+// Encontrar el gato que tenga menos de 5 años y su color sea Yellow
+
+// Condición, apenas se encuentre, no seguir buscando, devolver el nombre del gato y se finaliza el programa
 
 let cats = [
     {
@@ -40,13 +46,21 @@ let cats = [
     },
 ]
 
-// Parte 1
-// Encontrar todos los gatos que sean de color Black-White
+//  forma para imprimir un solo dato del arra
+const catResult = cats.find(cat => cat.age < 5 && cat.color == 'Yellow')
+
+console.log(catResult)
 
 
 
-// Parte 2
-// Encontrar todos los gatos que sean mayores a 5 años
 
-// Parte 3
-// Encontrar todos los gatos que sean menores a 5 años
+// forma para imprimir resultados hasta encontar el el resultado que cumple la condicion 
+
+const catsResults = cats.some(
+    function(cat){
+        console.log(cat)
+        if(cat.age < 5 && cat.color == "Yellow")
+        return true
+    }
+)
+
