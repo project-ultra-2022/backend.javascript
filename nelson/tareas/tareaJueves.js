@@ -43,10 +43,21 @@ let cats = [
 // Parte 1
 // Encontrar todos los gatos que sean de color Black-White
 
+console.log("\n gatos de color Black-White \n")
 
-
+const resultCats = cats.filter(cat => cat.color == "Black-White")
+console.log(resultCats)
 // Parte 2
 // Encontrar todos los gatos que sean mayores a 5 años
+console.log("\n gatos mayores de 5 años \n")
 
+const resultCats2 = cats.filter(cat => cat.age > 5)
+console.log(resultCats2)
 // Parte 3
 // Encontrar todos los gatos que sean menores a 5 años
+console.log("\n gatos menores de 5 años \n" )
+
+const resultCats3 = cats.filter(cat => cat.age < 5)
+console.log(resultCats3)
+
+
