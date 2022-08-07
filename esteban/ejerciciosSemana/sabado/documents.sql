@@ -1,5 +1,18 @@
+CREATE TABLE IF NOT EXISTS public.type_document
+(
+    id integer NOT NULL DEFAULT nextval('type_document_id_seq'::regclass),
+    name text COLLATE pg_catalog."default" NOT NULL,
+    status boolean NOT NULL,
+    CONSTRAINT id PRIMARY KEY (id)
+)
 
-    CREATE TABLE IF NOT EXISTS public.documents
+TABLESPACE pg_default;
+
+ALTER TABLE IF EXISTS public.type_document
+    OWNER to postgres;
+
+
+CREATE TABLE IF NOT EXISTS public.documents
     (
         id integer NOT NULL DEFAULT nextval('documents_id_seq'::regclass),
         key text COLLATE pg_catalog."default" NOT NULL,
@@ -22,15 +35,3 @@
         OWNER to postgres;
 
 
-CREATE TABLE IF NOT EXISTS public.type_document
-(
-    id integer NOT NULL DEFAULT nextval('type_document_id_seq'::regclass),
-    name text COLLATE pg_catalog."default" NOT NULL,
-    status boolean NOT NULL,
-    CONSTRAINT id PRIMARY KEY (id)
-)
-
-TABLESPACE pg_default;
-
-ALTER TABLE IF EXISTS public.type_document
-    OWNER to postgres;
