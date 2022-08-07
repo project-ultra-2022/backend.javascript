@@ -4,15 +4,15 @@ Si alguien desea hacerlo, debe saber desde ahora que enfrentara la frustración,
 
 ## Algunas de las funciones nativas de JavaScript para resolver este problema son:
 1. forEach (Vista en clase)
-2. split
+2. split (Vista en clase)
 3. push (Vista en clase)
 4. filter (Vista en clase)
-5. indexOf
-6. map (Vista en clase)
-7. slice
-8. includes
-9. sort
-10. lastIndexOf
+5. map (Vista en clase)
+6. indexOf (Vista en clase)
+7. slice (Vista en clase)
+8. includes (Vista en clase)
+9. sort (Vista en clase)
+10. lastIndexOf (Vista en clase)
 11. find (Vista en clase)
 12. return (Vista en clase)
 
