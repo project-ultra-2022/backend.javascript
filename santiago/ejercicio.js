@@ -127,6 +127,7 @@ if(esprimo){
 
 
 
+
 let noparar = true
 let contador = 0
 for (let j = 2; noparar; j++) {
@@ -144,5 +145,35 @@ for (let j = 2; noparar; j++) {
         }
     }
 }
+
+
+
+//bucle de 10 v
+
+function numbers (num1, num2){
+    return num1 + num2
+}
+for(let i = 0; i<10; i++){
+    console.log(numbers (i,5))
+}
+
+
+
+let numbers = [2, 5, 4]
+numbers.forEach(
+    function(element){
+        console.log(element)
+    }
+)
+
+
+let numbers = [2, 5, 6, 3, 1]
+numbers.some(
+    function(element){
+        console.log(element)
+        if(element == 6)
+        return true
+    }
+)
 
 */
