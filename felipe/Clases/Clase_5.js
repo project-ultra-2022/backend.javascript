@@ -85,7 +85,7 @@ console.log(Books.frontpages)
 } 
 const cuadrado = new Rectangulo(10,10)
 console.log (cuadrado.areaRectangulo());
-*/
+
 
 /* class Triangulo {
     constructor(alto, base){
